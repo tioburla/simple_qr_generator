@@ -12,11 +12,19 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgb(85, 218, 223), rgb(62, 127, 153),rgb(44, 52, 153));
+    background: linear-gradient(rgb(74, 91, 105), rgb(71, 93, 102),rgb(113, 117, 161));
 }
 h2{
+    color: whitesmoke;
     margin-bottom: 4%;
     font-size: 34px;
+}
+.fundo{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card{
     display: flex;
@@ -24,9 +32,11 @@ h2{
     justify-content: center;
     align-items: center;
     width: 70%;
-    min-height: 100vh;
+    height: 60%;
     background-color: transparent;
-    
+    border: 2px solid #999;
+    border-radius: 5px 40px 5px 40px;
+    padding: 5%;
 }
 .inserir{
     width: 50%;
@@ -68,7 +78,7 @@ h2{
 }
 @media(max-width: 770px) {
   h2{
-    font-size: 20px;
+    font-size: 19px;
   }
   .inserir input {
     width: 230px;

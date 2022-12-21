@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="card">
-       <h2>Gere aqui seu QR Code..</h2>
-        <div class="inserir">
-            <input type="text" onkeyup="digitando()" value="" placeholder="Digite aqui.."/>
+    <div class="fundo">
+        <div class="card">
+            <h2>Gere aqui seu QR Code..</h2>
+            <div class="inserir">
+                <input type="text" onkeyup="digitando()" value="" placeholder="Digite aqui.."/>
+            </div>
+            <div id="divqr">
+                <img id="qrimage" src="">
+            </div>
+            <script src="./script.js"></script>
         </div>
-        <div id="divqr">
-            <img id="qrimage" src="">
-        </div>
-        <script src="./script.js"></script>
     </div>
 </body>
 </html>
